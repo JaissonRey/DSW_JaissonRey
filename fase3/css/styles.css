@@ -1,5 +1,5 @@
 .header{
-    background-color:#AED6F1;
+    background-color:#0c0450;
     color: #f8f8f8;
     text-align: center;
     font-size:xx-large;
@@ -10,7 +10,7 @@
     grid-row-gap: 1px;
     }
     .div1 { grid-area: 1/1/2/2;
-    color:rgb(1, 1, 44)
+    color:rgb(235, 235, 245)
     }
     nav ul{
         background-color: #AED6F1;
