@@ -1,0 +1,63 @@
+.header{
+    background-color:#0c0450;
+    color: #f8f8f8;
+    text-align: center;
+    font-size:xx-large;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 6px;
+    grid-row-gap: 1px;
+    }
+    .div1 { grid-area: 1/1/2/2;
+    color:rgb(235, 235, 245)
+    }
+    nav ul{
+        background-color: #AED6F1;
+        list-style: none;
+    }
+    nav ul li a{
+        display: block;
+        color: rgb(14, 2, 83);
+        text-decoration: none;
+        transition: margin-left 1.5s;
+        transition: color;
+    }
+    nav ul li a:hover{
+        margin-left: 30px;
+        color: rgb(10, 4, 85);
+    }
+    section{
+        background-color: #020c47;
+        grid-column: 1/4;
+        text-align: center; 
+    }
+    h3{
+        color: rgb(232, 231, 240);
+        font-size: xx-large;
+        }
+    .otros{
+        color: rgb(234, 234, 241);
+        font-size: x-large;
+       
+    }
+    aside{
+        background-color: #F3F0D7;
+        grid-column: 4/5;
+        
+    }
+    footer{
+        background-color: #AED6F1;
+        text-align: center;
+        font-size: small;
+        color: rgb(16, 9, 58);
+    }
+    
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    h5{
+        color: rgb(243, 243, 247);
+        font-size: xx-large;
+        }
